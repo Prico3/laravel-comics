@@ -1,10 +1,15 @@
 <header>
+    <div class="ms_container_top d-flex text-right">
+        <span>DC POWER VISA</span>
+        <span>DC POWER VISA</span>
+    </div>
     <div class="container d-flex">
         <div class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </div>
         <nav class="navbar bg-light">
-            <div class="container-fluid d-flex">
+            <div class="container-fluid">
+
                 <a class="navbar-brand" href="#">Characters</a>
                 <a class="navbar-brand" href="#">Comics</a>
                 <a class="navbar-brand" href="#">Movies</a>
