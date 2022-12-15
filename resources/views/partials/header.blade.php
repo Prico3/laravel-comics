@@ -5,13 +5,13 @@
     </div>
     <div class="container d-flex">
         <div class="logo">
-            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+            <a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=""></a>
         </div>
         <nav class="navbar bg-light">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="#">Characters</a>
-                <a class="navbar-brand" href="#">Comics</a>
+                <a class="navbar-brand" href="{{ route('series') }}">Comics</a>
                 <a class="navbar-brand" href="#">Movies</a>
                 <a class="navbar-brand" href="#">TV</a>
                 <a class="navbar-brand" href="#">Games</a>
